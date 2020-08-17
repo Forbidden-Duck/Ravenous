@@ -1,4 +1,4 @@
-import apiKey from "../../yelptoken.json"
+import apiKey from "../yelptoken.json"
 const Yelp = {
     search(term, location, sortBy) {
         return fetch(
